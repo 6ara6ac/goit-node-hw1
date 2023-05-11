@@ -1,0 +1,24 @@
+{
+  "name": "--y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "start:dev": "nodemon index"  
+  },
+  "repository": {
+    "type": "git",
+    "url": "node.js-hw1"
+  },
+  "author": "Kirill Vasilyev",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "nanoid": "3.3.4",
+    "commander": "^10.0.0"
+  }
+}
